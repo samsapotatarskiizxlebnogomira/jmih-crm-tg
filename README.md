@@ -12,11 +12,10 @@
 ## Стек
 
 - Python 3.x
-- FastAPI / Django (укажи что именно)
-- Aiogram / Telebot (если бот отдельным сервисом)
+- FastAPI /
+- Aiogram / Telebot
 - PostgreSQL
-- Redis (если есть)
-- Docker / docker-compose (если есть)
+
 
 ## Запуск локально
 
