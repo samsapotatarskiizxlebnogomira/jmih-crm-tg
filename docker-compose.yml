@@ -1,0 +1,18 @@
+version: "3.9"
+
+services:
+  db:
+    image: postgres:16
+    container_name: jmih_crm_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: jmih
+      POSTGRES_PASSWORD: jmih_pass
+      POSTGRES_DB: jmih_crm
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
